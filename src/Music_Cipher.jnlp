@@ -1,0 +1,45 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase=
+        "http://lisabai.me/projects/Music_Cipher.jnlp">
+    <information>
+        <title>Music Cipher</title>
+        <vendor>Lisa Bai</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.7+"
+              href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="../sTextToMusic.jar"
+             main="true" />
+
+    </resources>
+    <application-desc
+            name="Music Cipher"
+            main-class=
+                    "Music_Cipher_GUI"
+            width="300"
+            height="300">
+    </application-desc>
+    <update check="background"/>
+</jnlp>
+
+        <!--<?xml version="1.0" encoding="UTF-8"?>-->
+        <!--<jnlp spec="1.0+" codebase="http://lisabai.me/projects/Music">-->
+        <!--<information>-->
+        <!--<title>Music Cipher</title>-->
+        <!--<vendor>Lisa Bai</vendor>-->
+        <!--</information>-->
+        <!--<resources>-->
+        <!--&lt;!&ndash; Application Resources &ndash;&gt;-->
+        <!--<j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>-->
+        <!--<jar href="textToMusicProject.jar" main="true" />-->
+        <!--</resources>-->
+        <!--<application-desc-->
+        <!--name="Music Cipher"-->
+        <!--main-class="org.Test"-->
+        <!--width="300"-->
+        <!--height="300">-->
+        <!--</application-desc>-->
+        <!--<update check="background"/>-->
+        <!--</jnlp>-->
